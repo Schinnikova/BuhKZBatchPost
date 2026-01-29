@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1891ed72-3122-4420-a35d-89504c335c39">
-  <name>ОбновитьПараметрыРегламентныхЗаданий_7ЦВ</name>
+  <name>ГП_ОбновитьПараметрыРегламентныхЗаданий</name>
   <synonym>
     <key>ru</key>
     <value>Обновить параметры регламентных заданий</value>
@@ -9,5 +9,5 @@
     <types>DocumentObject</types>
   </source>
   <event>Posting</event>
-  <handler>CommonModule.ГП_ОбщийМодуль.ОбновитьПараметрыРегламентныхЗаданийГП_ОбработкаПроведения</handler>
+  <handler>CommonModule.ГП_ОбщийМодуль.ОбновитьПараметрыРегламентныхЗаданий_ГПОбработкаПроведения</handler>
 </mdclass:EventSubscription>

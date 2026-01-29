@@ -39,7 +39,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonModules>CommonModule.ГП_ОбщийМодуль</commonModules>
-  <eventSubscriptions>EventSubscription.ОбновитьПараметрыРегламентныхЗаданий_7ЦВ</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ГП_ОбновитьПараметрыРегламентныхЗаданий</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ГП_ПерепроведениеДокументовПоРасписанию</scheduledJobs>
   <catalogs>Catalog.Организации</catalogs>
   <dataProcessors>DataProcessor.ГрупповоеПерепроведениеДокументов</dataProcessors>
