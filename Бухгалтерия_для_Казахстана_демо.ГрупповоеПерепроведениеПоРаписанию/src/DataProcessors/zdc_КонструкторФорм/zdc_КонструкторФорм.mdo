@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d29c0eb-6442-45c2-9dbf-cac9c574d3a8">
+  <producedTypes>
+    <objectType typeId="34321ee1-803f-4f2b-aa4e-84df920a7456" valueTypeId="71c377a9-6d51-4ce4-98de-19efea96d386"/>
+    <managerType typeId="3b0b7bfc-eba1-4bb6-b37b-9f9887851b6c" valueTypeId="afa9e429-75ad-4ebc-81d0-56183966ec03"/>
+  </producedTypes>
+  <name>zdc_КонструкторФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор форм [Zeddicus]</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.zdc_КонструкторФорм.Form.ПримерИспользования</defaultForm>
+  <attributes uuid="c1d014a5-471b-47a9-a43c-142f49ced006">
+    <name>ИмяПараметраЗапретДоработкиФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя параметра запрет доработки формы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2fcd8510-b2f5-448a-87d5-5279fdcc6b83">
+    <name>ПримерИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пример использования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

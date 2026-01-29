@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="069b330e-7296-4dc5-9ffc-7db3ec87a1e0">
+  <producedTypes>
+    <selectionType typeId="c4a8bae4-2f15-4d97-8a42-2445a7a89d03" valueTypeId="7c9ecc79-a5f9-49b1-a70b-0a9882541ffc"/>
+    <listType typeId="1359a175-408c-416c-924d-0a25d76f8dd3" valueTypeId="c9fcfabd-62cb-410b-a633-0f57bccac181"/>
+    <managerType typeId="1b52df56-18b3-466b-89d2-6274ba604320" valueTypeId="78a176ed-c810-4549-813d-c5b90496db49"/>
+    <recordSetType typeId="8cee84c8-ed59-47f6-9d4f-e28e311b48cb" valueTypeId="66c1cdb5-aaf8-4ac4-b429-ba50fd2c2546"/>
+    <recordKeyType typeId="738b3462-e35d-43a2-b998-ab538c017037" valueTypeId="58d2abca-f351-4439-8313-eb045ad434aa"/>
+    <recordType typeId="92737f31-ffb2-4094-bc13-2ee85123ebe8" valueTypeId="782364ac-b8b5-45a4-9117-47e3237ec31e"/>
+    <recordManagerType typeId="1360cfda-c5d9-4e22-bbf9-eba17b2a7df9" valueTypeId="d237030b-8635-43b8-97cd-12d262c0793a"/>
+  </producedTypes>
+  <name>ГП_ПараметрыРегламентныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Г п параметры регламентных заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ГП_ПараметрыРегламентныхЗаданий.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Параметр регламентных заданий</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Параметры регламентных заданий</value>
+  </listPresentation>
+  <resources uuid="89fd9524-4c8b-44f6-a100-446f7728fabf">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fba417a9-d301-4aa8-87d7-20dc333670d3">
+    <name>ВыбранныеТипыСтрокой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбранные типы строкой</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="80fb1cce-256c-478b-8c2e-6d15a03528a5">
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="482bed26-6297-4969-bfca-2ece07fba32e">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="884ac5cd-9fbb-4303-a663-30fa8ec42ab0">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
