@@ -12,6 +12,4 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
-  <checkUnique>true</checkUnique>
 </mdclass:Catalog>

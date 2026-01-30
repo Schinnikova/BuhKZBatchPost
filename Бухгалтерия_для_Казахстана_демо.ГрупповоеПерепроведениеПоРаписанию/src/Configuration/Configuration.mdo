@@ -39,10 +39,13 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonModules>CommonModule.ГП_ОбщийМодуль</commonModules>
+  <commonModules>CommonModule.РаботаСФормамиСервер</commonModules>
   <eventSubscriptions>EventSubscription.ГП_ОбновитьПараметрыРегламентныхЗаданий</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ГП_ПерепроведениеДокументовПоРасписанию</scheduledJobs>
   <catalogs>Catalog.Организации</catalogs>
   <dataProcessors>DataProcessor.ГрупповоеПерепроведениеДокументов</dataProcessors>
-  <dataProcessors>DataProcessor.zdc_КонструкторФорм</dataProcessors>
+  <dataProcessors>DataProcessor.рсф_ПостроительФорм</dataProcessors>
+  <dataProcessors>DataProcessor.рсф_Таблицы</dataProcessors>
+  <dataProcessors>DataProcessor.рсф_ДинамическиеСписки</dataProcessors>
   <informationRegisters>InformationRegister.ГП_ПараметрыРегламентныхЗаданий</informationRegisters>
 </mdclass:Configuration>
