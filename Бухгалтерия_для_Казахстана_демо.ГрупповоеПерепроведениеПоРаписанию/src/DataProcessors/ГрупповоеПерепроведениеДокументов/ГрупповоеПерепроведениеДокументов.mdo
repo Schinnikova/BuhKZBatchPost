@@ -19,4 +19,13 @@
       <form>Extended</form>
     </extension>
   </forms>
+  <forms uuid="a1b2c3d4-e5f6-7890-abcd-ef1234567890">
+    <name>НастройкаПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка параметров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
