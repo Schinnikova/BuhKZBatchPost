@@ -243,12 +243,9 @@
     <extInfo xsi:type="form:InputFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
       <wrap>true</wrap>
-      <inputHint>
-        <key>ru</key>
-        <value>e-mail получателей через ;</value>
-      </inputHint>
+      <chooseType>true</chooseType>
+      <textEdit>true</textEdit>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -377,27 +374,6 @@
     <savedData>true</savedData>
   </attributes>
   <attributes>
-    <name>ПолучателиРассылки</name>
-    <title>
-      <key>ru</key>
-      <value>Получатели рассылки (для регламента)</value>
-    </title>
-    <id>6</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>1000</length>
-      </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <savedData>true</savedData>
-  </attributes>
-  <attributes>
     <name>ТекущийДокумент</name>
     <title>
       <key>ru</key>
@@ -405,6 +381,24 @@
     </title>
     <id>9</id>
     <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПолучателиРассылки</name>
+    <title>
+      <key>ru</key>
+      <value>Получатели рассылки (для регламента)</value>
+    </title>
+    <id>10</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
     <view>
       <common>true</common>
     </view>
