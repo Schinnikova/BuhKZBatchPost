@@ -8,6 +8,11 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers xsi:type="form:EventHandlerExtension">
+    <event>NotificationProcessing</event>
+    <name>ГП_ОбработкаОповещенияПосле</name>
+    <callType>After</callType>
+  </handlers>
+  <handlers xsi:type="form:EventHandlerExtension">
     <event>OnLoadDataFromSettingsAtServer</event>
     <name>ГП_ПриЗагрузкеДанныхИзНастроекНаСервереПосле</name>
     <callType>After</callType>
