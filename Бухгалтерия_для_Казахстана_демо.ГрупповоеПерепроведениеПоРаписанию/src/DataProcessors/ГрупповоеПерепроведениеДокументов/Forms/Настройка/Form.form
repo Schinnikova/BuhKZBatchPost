@@ -337,7 +337,7 @@
     <name>ДатаНачала</name>
     <title>
       <key>ru</key>
-      <value>Дата начала</value>
+      <value>Дата начала (для регламента)</value>
     </title>
     <id>4</id>
     <valueType>
@@ -358,7 +358,7 @@
     <name>КоличествоМесяцевДляПерепроведения</name>
     <title>
       <key>ru</key>
-      <value>Количество месяцев для перепроведения</value>
+      <value>Количество месяцев для перепроведения (для регламента)</value>
     </title>
     <id>5</id>
     <valueType>
@@ -380,7 +380,7 @@
     <name>ПолучателиРассылки</name>
     <title>
       <key>ru</key>
-      <value>Получатели рассылки</value>
+      <value>Получатели рассылки (для регламента)</value>
     </title>
     <id>6</id>
     <valueType>
@@ -401,7 +401,7 @@
     <name>ТекущийДокумент</name>
     <title>
       <key>ru</key>
-      <value>Текущий документ</value>
+      <value>Текущий документ (для регламента)</value>
     </title>
     <id>9</id>
     <valueType/>
