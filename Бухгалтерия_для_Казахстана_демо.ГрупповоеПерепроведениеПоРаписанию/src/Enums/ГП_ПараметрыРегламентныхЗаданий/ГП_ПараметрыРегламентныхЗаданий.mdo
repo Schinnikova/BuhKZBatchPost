@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89013f25-ee42-4463-9765-14b05ff98603">
+  <producedTypes>
+    <refType typeId="8b8aad53-12a9-4fe6-9f12-40d035e19e0d" valueTypeId="d72ef547-5106-4968-87fd-3a29721454b6"/>
+    <listType typeId="5429faee-773f-447c-90cd-6dc36a076720" valueTypeId="6eba5d76-e116-483e-af89-fe7fab438e14"/>
+    <managerType typeId="0f1053f4-84be-4422-9cde-43d735da6911" valueTypeId="9216c6e1-0ff5-4836-9bbf-802679fe9cae"/>
+  </producedTypes>
+  <name>ГП_ПараметрыРегламентныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры регламентных заданий (ГП)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7474933f-320d-4cfa-92d6-61a65720ac71">
+    <name>ТипыДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8329569e-985f-4c61-a117-e9200568e42d">
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ccd3a12a-a4a7-4527-86c5-c66a549fc400">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="077aabb5-034b-4e31-9ba0-b9d6a334c286">
+    <name>ТекущийДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="955dcdba-5a33-41e2-922a-070a52772e1e">
+    <name>КоличествоМесяцевДляПерепроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество месяцев для перепроведения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d826e9d2-2f0a-4487-9dd0-b80cc5a5069f">
+    <name>ПолучателиРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатели рассылки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

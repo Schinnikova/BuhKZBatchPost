@@ -42,6 +42,7 @@
   <eventSubscriptions>EventSubscription.ГП_ОбновитьПараметрыРегламентныхЗаданий</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ГП_ПерепроведениеДокументовПоРасписанию</scheduledJobs>
   <catalogs>Catalog.Организации</catalogs>
+  <enums>Enum.ГП_ПараметрыРегламентныхЗаданий</enums>
   <dataProcessors>DataProcessor.ГрупповоеПерепроведениеДокументов</dataProcessors>
   <informationRegisters>InformationRegister.ГП_ПараметрыРегламентныхЗаданий</informationRegisters>
 </mdclass:Configuration>

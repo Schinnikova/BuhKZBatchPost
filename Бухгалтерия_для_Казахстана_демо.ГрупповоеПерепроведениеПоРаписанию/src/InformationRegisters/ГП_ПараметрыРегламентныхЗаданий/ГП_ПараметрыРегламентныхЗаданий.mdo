@@ -12,7 +12,7 @@
   <name>ГП_ПараметрыРегламентныхЗаданий</name>
   <synonym>
     <key>ru</key>
-    <value>Г п параметры регламентных заданий</value>
+    <value>Параметры регламентных заданий (ГП)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
@@ -25,43 +25,11 @@
     <key>ru</key>
     <value>Параметры регламентных заданий</value>
   </listPresentation>
-  <resources uuid="89fd9524-4c8b-44f6-a100-446f7728fabf">
-    <name>Дата</name>
+  <resources uuid="2df3fe4d-ee97-4596-917a-8d9a8ba426e9">
+    <name>Значение</name>
     <synonym>
       <key>ru</key>
-      <value>Дата</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="fba417a9-d301-4aa8-87d7-20dc333670d3">
-    <name>ВыбранныеТипыСтрокой</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выбранные типы строкой</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
-  </resources>
-  <resources uuid="80fb1cce-256c-478b-8c2e-6d15a03528a5">
-    <name>Организации</name>
-    <synonym>
-      <key>ru</key>
-      <value>Организации</value>
+      <value>Значение</value>
     </synonym>
     <type>
       <types>ValueStorage</types>
@@ -72,39 +40,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="2df3fe4d-ee97-4596-917a-8d9a8ba426e9">
-    <name>Значение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Значение</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
-  </resources>
-  <attributes uuid="482bed26-6297-4969-bfca-2ece07fba32e">
-    <name>Документ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Документ</value>
-    </synonym>
-    <type>
-      <types>DocumentRef</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <dimensions uuid="34125bff-6e1d-46a9-be86-72eb81e5a012">
     <name>Параметр</name>
     <synonym>
@@ -112,10 +47,7 @@
       <value>Параметр</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
+      <types>EnumRef.ГП_ПараметрыРегламентныхЗаданий</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
