@@ -27,6 +27,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <version>1.0.0.0</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="2817d2dc-b2a3-4cd8-b2fa-7ae9c0060889" extendedConfigurationObject="2c7fb663-11bf-4edc-b036-4e861fef613c">
